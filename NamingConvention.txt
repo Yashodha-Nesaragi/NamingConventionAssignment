@@ -1,0 +1,26 @@
+Some Important Naming Conventions:
+-Rules to be followed while giving names to the identifier.
+(identifier can be object,class,method,variable etc..)
+*Rule 1:For Class,Object,Method,Variable
+        Name should not match with keywords.
+*Rule 2:For Class name
+       -Name of the Class should begin with Capital letter(if it is Single word).
+       -First letter of every word should begin with Capital letter(if it is multiple word).
+        Example: Employee(single word)
+                 DepartmentName(multiple word)
+*Rule 3:For Method name
+       -First letter should begin with small leter or lowercase letter(if it is single word).
+       -First letter of first word should be lowercase and first letter of next word should be capital.
+       (if is multiword)
+        Example: read(),write()
+                 getName(),nextLine()
+*Rule 4:For Variable name
+       -Should begin with alphabet or underscore.
+       -Should not begin with digit.
+       -Should contain alphanumeric but not symbols or spaces except underscore.
+        (These rules also applicable to classes and methods along with above rules).
+*Rule 5:For Constants
+       -Always use capital letter for constants.
+        Example: static final int MIN_WIDTH = 4;
+                 int GET_THE_CPU = 1;
+
